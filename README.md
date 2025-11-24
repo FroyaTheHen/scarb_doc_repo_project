@@ -1,0 +1,1 @@
+Test repo to integrate a cairo project with scarb doc.
