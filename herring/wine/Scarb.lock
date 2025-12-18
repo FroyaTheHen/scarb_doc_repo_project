@@ -2,17 +2,6 @@
 version = 1
 
 [[package]]
-name = "herring"
-version = "0.1.0"
-
-[[package]]
-name = "martini"
-version = "0.1.0"
-dependencies = [
- "snforge_std",
-]
-
-[[package]]
 name = "snforge_scarb_plugin"
 version = "0.45.0"
 source = "registry+https://scarbs.xyz/"

@@ -1,7 +1,24 @@
+[workspace]
+members = [
+	"wine",
+	"martini",
+]
+
+[workspace.scripts]
+test = "snforge"
+
+[workspace.tool.snforge]
+exit_first = true
+
+[workspace.dependencies]
+cairo_test = "2.13.1"
+starknet = "2.13.1"
+
+
 [package]
 name = "herring"
 version = "0.1.0"
 edition = "2024_07"
 experimental-features = ["user_defined_inline_macros"]
 
-[dependencies]
+

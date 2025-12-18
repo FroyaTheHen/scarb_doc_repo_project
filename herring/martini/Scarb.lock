@@ -2,10 +2,6 @@
 version = 1
 
 [[package]]
-name = "herring"
-version = "0.1.0"
-
-[[package]]
 name = "martini"
 version = "0.1.0"
 dependencies = [
@@ -25,11 +21,4 @@ source = "registry+https://scarbs.xyz/"
 checksum = "sha256:c08b359c266e45c4e71b71baa3c4af8dae7fc5416fc8168f0983e5c9a2ac0abe"
 dependencies = [
  "snforge_scarb_plugin",
-]
-
-[[package]]
-name = "wine"
-version = "0.1.0"
-dependencies = [
- "snforge_std",
 ]

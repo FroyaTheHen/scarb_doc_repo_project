@@ -1,0 +1,20 @@
+[package]
+name = "martini"
+version = "0.1.0"
+edition = "2024_07"
+
+experimental-features = ["user_defined_inline_macros"]
+
+[dependencies]
+starknet = "2.14.0"
+
+[dev-dependencies]
+snforge_std = "0.45.0"
+assert_macros = "2.14.0"
+
+
+[scripts]
+test = "snforge test"
+
+[tool.scarb]
+allow-prebuilt-plugins = ["snforge_std"]
